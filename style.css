@@ -1,0 +1,88 @@
+/* General styles for body */
+body {
+    font-family: Arial, sans-serif; /* Sets the font family */
+    font-size: 16px; /* Sets the font size */
+    line-height: 1.6; /* Adds space between lines for better readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Skip to Main Content Link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: -40px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+}
+
+.skip-link:focus {
+    top: 10px;
+    left: 10px;
+    z-index: 10;
+}
+
+/* Header styles */
+header {
+    background-color: #88b0b9; /* Sets background color for header */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #2c3e50; /* Sets background color for the nav */
+    padding: 10px 0;
+    text-align: center;
+    display: inline-block; /* Changes to inline-block */
+    width: 80%; /* Set width to 80% */
+}
+
+/* List item styles in the navigation */
+nav ul li {
+    display: inline-block; /* Makes list items appear side by side */
+    margin: 0 15px; /* Adds spacing between the items */
+}
+
+/* Header (h1) styles */
+h1 {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    color: #34495e;
+    margin: 20px 0;
+}
+
+/* Main content area styles */
+main {
+    background-color: #f4f4f4;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+/* Image styles for images in the navigation */
+nav img {
+    width: 10%; /* Style the image inside nav to be 10% width */
+}
+
+/* Grid layout styles */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%; /* Two columns with 40% width */
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.grid img {
+    width: 100%; /* Ensures images scale correctly within grid */
+}
+
+/* Footer styles */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
